@@ -14,8 +14,10 @@ describe('Dashboard Features', () => {
             cy.get('i.icon-angle-double-right').filter(':visible').first().should('be.visible').click();
             cy.get('span.button-text', { timeout: 10000 }).contains('Next').click();
             cy.get(`mat-tree-node`, { timeout: 10000 }).contains("Downlink measurements").click();
-            const selectedCounters = ossConfig.counters["Downlink measurements"].filter(item=> item.isActive).map(item => item.counter_name);
-            selectedCounters.forEach(item => {
+            const selectedCounters = ossConfig["Downlink measurements"].counters.filter(item => item.isActive).map(item => item.name);
+            const selectedKpis = ossConfig["Downlink measurements"].kpis.filter(item=> item.isActive).map(item => item.name);
+            const allSelected = [...selectedCounters, ...selectedKpis];
+            allSelected.forEach(item => {
                 cy.get(`mat-list-option[title="${item} "]`).click();
             })
             cy.get('i.icon-angle-right').filter(':visible').first().should('be.visible').click();
@@ -61,7 +63,7 @@ describe('Dashboard Features', () => {
             // cy.get('mat-list-option').get('h6').contains('rrc_dl_information_transfer').click();
 
 
-            selectedCounters.forEach(c => {
+            allSelected.forEach(c => {
                 cy.get('mat-list-option[aria-selected="true"]').each(($el) => {
                     cy.wrap($el).click();
                 });

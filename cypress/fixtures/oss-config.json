@@ -1,771 +1,1265 @@
 {
-    "counters": {
-        "Radio Resource Control measurements": [
-            {
-                "counter_name": "rrc_ul_information_transfer",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_dl_information_transfer",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_security_mode_command",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_security_mode_complete",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_security_mode_failure",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_ue_capability_enquiry",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_ue_capability_information",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reconfiguration",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reconfiguration_handover",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reconfiguration_mac_ce",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reconfiguration_modify_bearer",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reconfiguration_new_bearer",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reconfiguration_rem_bearer",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reconfiguration_complete",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_release",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reject",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reestablishment",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reestablishment_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "rrc_connection_reestablishment_reject",
-                "isActive": true
-            },
-            {
-                "counter_name": "csfb_attempt",
-                "isActive": true
-            },
-            {
-                "counter_name": "csfb_geran_attempt",
-                "isActive": true
-            },
-            {
-                "counter_name": "csfb_umts_attempt",
-                "isActive": true
-            },
-            {
-                "counter_name": "csfb_success",
-                "isActive": true
-            },
-            {
-                "counter_name": "success_volte_establishment_qci1",
-                "isActive": true
-            },
-            {
-                "counter_name": "volte_qci1_attempts",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_success_inter_sec1",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_success_inter_sec2",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_success_inter_sec3",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_request_inter_sec1",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_request_inter_sec2",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_request_inter_sec3",
-                "isActive": true
-            },
-            {
-                "counter_name": "cell_availability",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Att_MoSig",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Succ_MoSig",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Succ_Emc",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Succ_HighPri",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Succ_Mt",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Succ_MoData",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Succ_DelayTol",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Att_Emc",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Att_HighPri",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Att_Mt",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Att_MoData",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RRC_ConnReq_Att_DelayTol",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_Traffic_User_Avg",
-                "isActive": true
-            },
-            {
-                "counter_name": "srvcc_attempt_3g",
-                "isActive": true
-            },
-            {
-                "counter_name": "srvcc_success_3g",
-                "isActive": true
-            },
-            {
-                "counter_name": "srvcc_exec_3g",
-                "isActive": true
-            },
-            {
-                "counter_name": "srvcc_attempt",
-                "isActive": true
-            },
-            {
-                "counter_name": "srvcc_success",
-                "isActive": true
-            },
-            {
-                "counter_name": "srvcc_exec",
-                "isActive": true
-            }
-        ],
-        "Downlink measurements": [
-            {
-                "counter_name": "dl_bitrate",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_tx",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_errors",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_use_min",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_use_max",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_use_avg",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_use_online",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_trafic_volte",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_nof_volte_pak",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_nof_fail_volte_pak",
-                "isActive": true
-            },
-            {
-                "counter_name": "nof_pdcp_pak",
-                "isActive": true
-            },
-            {
-                "counter_name": "nof_fail_pdcp_pak",
-                "isActive": true
-            },
-            {
-                "counter_name": "traffic_stats_dl",
-                "isActive": true
-            },
-            {
-                "counter_name": "DLPDCPSDUs",
-                "isActive": true
-            },
-            {
-                "counter_name": "DLPDCPSDUs_QCI9",
-                "isActive": true
-            },
-            {
-                "counter_name": "LastDLPDCPSDUs",
-                "isActive": true
-            },
-            {
-                "counter_name": "LastDLPDCPSDUs_QCI9",
-                "isActive": true
-            },
-            {
-                "counter_name": "TimeDuration_DLPDCPSDUs_ms",
-                "isActive": true
-            },
-            {
-                "counter_name": "TimeDuration_DLPDCPSDUs_ms_QCI9",
-                "isActive": true
-            }
-        ],
-        "Uplink measurements": [
-            {
-                "counter_name": "ul_bitrate",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_tx",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_errors",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_use_online",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_use_min",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_use_max",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_use_avg",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_trafic_volte",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_interference",
-                "isActive": true
-            },
-            {
-                "counter_name": "traffic_stats_ul",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_interference_pucch",
-                "isActive": true
-            },
-            {
-                "counter_name": "ULPDCPSDUs",
-                "isActive": true
-            },
-            {
-                "counter_name": "LastULPDCPSDUs",
-                "isActive": true
-            },
-            {
-                "counter_name": "TimeDuration_ULPDCPSDUs_ms",
-                "isActive": true
-            }
-        ],
-        "Enhanced Radio Access Bearer measurements": [
-            {
-                "counter_name": "erab_count_min",
-                "isActive": true
-            },
-            {
-                "counter_name": "erab_count_max",
-                "isActive": true
-            },
-            {
-                "counter_name": "erab_count_avg",
-                "isActive": true
-            },
-            {
-                "counter_name": "volte_erab_attempts",
-                "isActive": true
-            },
-            {
-                "counter_name": "erab_release_command",
-                "isActive": true
-            },
-            {
-                "counter_name": "erab_modify_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "erab_setup_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "erab_release_response",
-                "isActive": true
-            },
-            {
-                "counter_name": "erab_setup_response",
-                "isActive": true
-            },
-            {
-                "counter_name": "erab_modify_response",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_SuccEst_QCI_1",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_SuccEst_QCI_2",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_SuccEst_QCI_3",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_SuccEst_QCI_4",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_SuccEst_QCI_5",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_SuccEst_QCI_6",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_SuccEst_QCI_7",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_SuccEst_QCI_8",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_SuccEst_QCI_9",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_AttEst_QCI_1",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_AttEst_QCI_2",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_AttEst_QCI_3",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_AttEst_QCI_4",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_AttEst_QCI_5",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_AttEst_QCI_6",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_AttEst_QCI_7",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_AttEst_QCI_8",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ERAB_AttEst_QCI_9",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_E_RAB_AbnormRel_MMETot_VoIP",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_E_RAB_AbnormRel_eNBTot_QCI_1",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_E_RAB_NormRel_QCI_1",
-                "isActive": true
-            }
-        ],
-        "Medium Access Control measurements": [
-            {
-                "counter_name": "number_of_rach",
-                "isActive": true
-            },
-            {
-                "counter_name": "number_of_rar",
-                "isActive": true
-            },
-            {
-                "counter_name": "call_duration",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_RA_GrpA_ContResolution",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_Traffic_ActiveUser_DL_Avg",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_Traffic_ActiveUser_UL_Avg",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index0",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index1",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index2",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index3",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index4",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index5",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index6",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index7",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index8",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index9",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index0",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index1",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index2",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index3",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index4",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index5",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index6",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index7",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index8",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index9",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_CCE_CommUsed",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_CCE_DLUsed",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_CCE_ULUsed",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PDCCH_AggLvl1Num",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PDCCH_AggLvl2Num",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PDCCH_AggLvl4Num",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ChMeas_PDCCH_AggLvl8Num",
-                "isActive": true
-            }
-        ],
-        "S1 measurements": [
-            {
-                "counter_name": "ue_count_min",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_count_max",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_count_avg",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_count_online",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_success",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_success_volte",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_context_setup_complete",
-                "isActive": true
-            },
-            {
-                "counter_name": "initial_ue_message",
-                "isActive": true
-            },
-            {
-                "counter_name": "initial_context_setup_response",
-                "isActive": true
-            },
-            {
-                "counter_name": "initial_context_setup_failure",
-                "isActive": true
-            },
-            {
-                "counter_name": "initial_context_setup_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "ul_nas_transport",
-                "isActive": true
-            },
-            {
-                "counter_name": "dl_nas_transport",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_context_release_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_context_modify_failure",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_context_modify_response",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_context_modify_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_context_release_command",
-                "isActive": true
-            },
-            {
-                "counter_name": "ue_context_release_complete",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_request_acknowledge",
-                "isActive": true
-            },
-            {
-                "counter_name": "mme_status_transfer",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_failure",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_send_notify",
-                "isActive": true
-            },
-            {
-                "counter_name": "s1_setup_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "s1_setup_response",
-                "isActive": true
-            },
-            {
-                "counter_name": "s1_setup_failure",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_so_success",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_so_attempt",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_dl_nas_transport",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_initial_contetxt_setup_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "L_ue_context_release_command",
-                "isActive": true
-            },
-            {
-                "counter_name": "abnormal_release_request",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_send_notify_freq",
-                "isActive": true
-            },
-            {
-                "counter_name": "handover_request_freq",
-                "isActive": true
-            }
-        ]
-    },
-    "timeMode": [
-        {
-            "name": "Continuous",
-            "isActive": false,
-            "options": null
-        },
-        {
-            "name": "Section Time",
-            "isActive": true,
-            "options": {
-                "startTime": "12:34",
-                "endTime": "13:30"
-            }
-        }
+  "Radio Resource Control measurements": {
+    "counters": [
+      {
+        "name": "rrc_ul_information_transfer",
+        "isActive": false
+      },
+      {
+        "name": "rrc_dl_information_transfer",
+        "isActive": false
+      },
+      {
+        "name": "rrc_security_mode_command",
+        "isActive": false
+      },
+      {
+        "name": "rrc_security_mode_complete",
+        "isActive": false
+      },
+      {
+        "name": "rrc_security_mode_failure",
+        "isActive": false
+      },
+      {
+        "name": "rrc_ue_capability_enquiry",
+        "isActive": false
+      },
+      {
+        "name": "rrc_ue_capability_information",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reconfiguration",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reconfiguration_handover",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reconfiguration_mac_ce",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reconfiguration_modify_bearer",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reconfiguration_new_bearer",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reconfiguration_rem_bearer",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reconfiguration_complete",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_release",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reject",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reestablishment",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reestablishment_request",
+        "isActive": false
+      },
+      {
+        "name": "rrc_connection_reestablishment_reject",
+        "isActive": false
+      },
+      {
+        "name": "csfb_attempt",
+        "isActive": false
+      },
+      {
+        "name": "csfb_geran_attempt",
+        "isActive": false
+      },
+      {
+        "name": "csfb_umts_attempt",
+        "isActive": false
+      },
+      {
+        "name": "csfb_success",
+        "isActive": false
+      },
+      {
+        "name": "success_volte_establishment_qci1",
+        "isActive": false
+      },
+      {
+        "name": "volte_qci1_attempts",
+        "isActive": false
+      },
+      {
+        "name": "handover_success_inter_sec1",
+        "isActive": false
+      },
+      {
+        "name": "handover_success_inter_sec2",
+        "isActive": false
+      },
+      {
+        "name": "handover_success_inter_sec3",
+        "isActive": false
+      },
+      {
+        "name": "handover_request_inter_sec1",
+        "isActive": false
+      },
+      {
+        "name": "handover_request_inter_sec2",
+        "isActive": false
+      },
+      {
+        "name": "handover_request_inter_sec3",
+        "isActive": false
+      },
+      {
+        "name": "cell_availability",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Att_MoSig",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Succ_MoSig",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Succ_Emc",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Succ_HighPri",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Succ_Mt",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Succ_MoData",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Succ_DelayTol",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Att_Emc",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Att_HighPri",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Att_Mt",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Att_MoData",
+        "isActive": false
+      },
+      {
+        "name": "L_RRC_ConnReq_Att_DelayTol",
+        "isActive": false
+      },
+      {
+        "name": "L_Traffic_User_Avg",
+        "isActive": false
+      },
+      {
+        "name": "srvcc_attempt_3g",
+        "isActive": false
+      },
+      {
+        "name": "srvcc_success_3g",
+        "isActive": false
+      },
+      {
+        "name": "srvcc_exec_3g",
+        "isActive": false
+      },
+      {
+        "name": "srvcc_attempt",
+        "isActive": false
+      },
+      {
+        "name": "srvcc_success",
+        "isActive": false
+      },
+      {
+        "name": "srvcc_exec",
+        "isActive": false
+      }
     ],
-    "dateRange": [
-        {
-            "name": "Custom",
-            "isActivce": true,
-            "startDate": "2025-10-01",
-            "endDate": "2025-10-13"
-        }
+    "kpis": [
+      {
+        "name": "RRC_Setup_Succ_Rate_All",
+        "isActive": false
+      },
+      {
+        "name": "rrc_security_mode_success_rate",
+        "isActive": false
+      },
+      {
+        "name": "rrc_security_mode_failure_rate",
+        "isActive": false
+      },
+      {
+        "name": "rrc_reestablishment_success_rate",
+        "isActive": false
+      },
+      {
+        "name": "rrc_reestablishment_failure_rate",
+        "isActive": false
+      },
+      {
+        "name": "rrc_reconfiguration_success_rate",
+        "isActive": false
+      },
+      {
+        "name": "E-RAB(QCI1)Setup_SR",
+        "isActive": false
+      },
+      {
+        "name": "HO_SR_target_sec1(X2)",
+        "isActive": false
+      },
+      {
+        "name": "HO_SR_target_sec2(X2)",
+        "isActive": false
+      },
+      {
+        "name": "HO_SR_target_sec3(X2)",
+        "isActive": false
+      },
+      {
+        "name": "RRC_Setup_Succ_Rate_Mo_Sig",
+        "isActive": false
+      },
+      {
+        "name": "RRC_Setup_Succ_Rate_Service",
+        "isActive": false
+      },
+      {
+        "name": "SRVCC_Preparation_SuccRate_All",
+        "isActive": false
+      },
+      {
+        "name": "SRVCC_Execution_Succ_Rate_All",
+        "isActive": false
+      },
+      {
+        "name": "SRVCC_Succ_Rate_L2G",
+        "isActive": false
+      },
+      {
+        "name": "SRVCC_Succ_Rate_L2W",
+        "isActive": false
+      },
+      {
+        "name": "SRVCC_Succ_Rate_UMTS_GSM",
+        "isActive": false
+      },
+      {
+        "name": "Users_RRC_Connected_Sum_Of_Avg",
+        "isActive": false
+      },
+      {
+        "name": "Users_RRC_Connected_Avg_Of_Avg",
+        "isActive": false
+      },
+      {
+        "name": "Users_RRC_Connected_Sum_Of_Max",
+        "isActive": false
+      }
     ]
+  },
+  "Downlink measurements": {
+    "counters": [
+      {
+        "name": "dl_bitrate",
+        "isActive": false
+      },
+      {
+        "name": "dl_tx",
+        "isActive": false
+      },
+      {
+        "name": "dl_errors",
+        "isActive": false
+      },
+      {
+        "name": "dl_use_min",
+        "isActive": false
+      },
+      {
+        "name": "dl_use_max",
+        "isActive": false
+      },
+      {
+        "name": "dl_use_avg",
+        "isActive": false
+      },
+      {
+        "name": "dl_use_online",
+        "isActive": false
+      },
+      {
+        "name": "dl_trafic_volte",
+        "isActive": false
+      },
+      {
+        "name": "dl_nof_volte_pak",
+        "isActive": false
+      },
+      {
+        "name": "dl_nof_fail_volte_pak",
+        "isActive": false
+      },
+      {
+        "name": "nof_pdcp_pak",
+        "isActive": false
+      },
+      {
+        "name": "nof_fail_pdcp_pak",
+        "isActive": false
+      },
+      {
+        "name": "traffic_stats_dl",
+        "isActive": false
+      },
+      {
+        "name": "DLPDCPSDUs",
+        "isActive": false
+      },
+      {
+        "name": "DLPDCPSDUs_QCI9",
+        "isActive": false
+      },
+      {
+        "name": "LastDLPDCPSDUs",
+        "isActive": false
+      },
+      {
+        "name": "LastDLPDCPSDUs_QCI9",
+        "isActive": false
+      },
+      {
+        "name": "TimeDuration_DLPDCPSDUs_ms",
+        "isActive": false
+      },
+      {
+        "name": "TimeDuration_DLPDCPSDUs_ms_QCI9",
+        "isActive": false
+      },
+      {
+        "name": "phr_avg",
+        "isActive": false
+      },
+      {
+        "name": "dl_cqi_avg",
+        "isActive": false
+      },
+      {
+        "name": "DLPDCPSDUs_QCI1",
+        "isActive": false
+      },
+      {
+        "name": "DLPDCPSDUs_SRB1",
+        "isActive": false
+      },
+      {
+        "name": "TimeDuration_DLPDCPSDUs_100ms_QCI1",
+        "isActive": false
+      },
+      {
+        "name": "TimeDuration_DLUL_100msec",
+        "isActive": false
+      },
+      {
+        "name": "f_Latency_DL_Sched_PS_NGBR_msec",
+        "isActive": false
+      },
+      {
+        "name": "f_Latency_DL_Sched_VoLTE_msec",
+        "isActive": false
+      },
+      {
+        "name": "f_Latency_DL_eNB_And_Uu_PS_NGBR",
+        "isActive": false
+      },
+      {
+        "name": "f_Latency_DL_eNB_And_Uu_VoLTE_ms",
+        "isActive": false
+      }
+    ],
+    "kpis": [
+      {
+        "name": "DLPacketDiscardRateOnUuInterface(QCI1)",
+        "isActive": false
+      },
+      {
+        "name": "DL-PDCP-PacketDiscardRate",
+        "isActive": false
+      },
+      {
+        "name": "Throughput_UE_All_QCI_DL_Mbps",
+        "isActive": false
+      },
+      {
+        "name": "Throughput_Cell_DL_Mbps",
+        "isActive": false
+      },
+      {
+        "name": "Throughput_UE_QCI9_DL_Mbps",
+        "isActive": false
+      },
+      {
+        "name": "Available_PRB_DL_Avg",
+        "isActive": false
+      },
+      {
+        "name": "Available_PRB_DL_Sum",
+        "isActive": false
+      },
+      {
+        "name": "CQI_Wideband_Reported_Average",
+        "isActive": false
+      },
+      {
+        "name": "UE_UL_Power_Headroom_Avg_dB",
+        "isActive": false
+      }
+    ]
+  },
+  "Uplink measurements": {
+    "counters": [
+      {
+        "name": "ul_bitrate",
+        "isActive": false
+      },
+      {
+        "name": "ul_tx",
+        "isActive": false
+      },
+      {
+        "name": "ul_errors",
+        "isActive": false
+      },
+      {
+        "name": "ul_use_online",
+        "isActive": false
+      },
+      {
+        "name": "ul_use_min",
+        "isActive": false
+      },
+      {
+        "name": "ul_use_max",
+        "isActive": false
+      },
+      {
+        "name": "ul_use_avg",
+        "isActive": false
+      },
+      {
+        "name": "ul_trafic_volte",
+        "isActive": false
+      },
+      {
+        "name": "ul_interference",
+        "isActive": false
+      },
+      {
+        "name": "traffic_stats_ul",
+        "isActive": false
+      },
+      {
+        "name": "ul_interference_pucch",
+        "isActive": false
+      },
+      {
+        "name": "ULPDCPSDUs",
+        "isActive": false
+      },
+      {
+        "name": "LastULPDCPSDUs",
+        "isActive": false
+      },
+      {
+        "name": "TimeDuration_ULPDCPSDUs_ms",
+        "isActive": false
+      },
+      {
+        "name": "ULPDCPSDUs_SRB1_2",
+        "isActive": false
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Throughput_UE_All_QCIs_UL_Mbps",
+        "isActive": false
+      },
+      {
+        "name": "Throughput_UE_UL_Schd_TTI_Mbps",
+        "isActive": false
+      },
+      {
+        "name": "Throughput_Cell_UL_Mbps",
+        "isActive": false
+      },
+      {
+        "name": "Interference_PUCCH_Avg",
+        "isActive": false
+      }
+    ]
+  },
+  "Enhanced Radio Access Bearer measurements": {
+    "counters": [
+      {
+        "name": "erab_count_min",
+        "isActive": false
+      },
+      {
+        "name": "erab_count_max",
+        "isActive": false
+      },
+      {
+        "name": "erab_count_avg",
+        "isActive": false
+      },
+      {
+        "name": "volte_erab_attempts",
+        "isActive": false
+      },
+      {
+        "name": "erab_release_command",
+        "isActive": false
+      },
+      {
+        "name": "erab_modify_request",
+        "isActive": false
+      },
+      {
+        "name": "erab_setup_request",
+        "isActive": false
+      },
+      {
+        "name": "erab_release_response",
+        "isActive": false
+      },
+      {
+        "name": "erab_setup_response",
+        "isActive": false
+      },
+      {
+        "name": "erab_modify_response",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_SuccEst_QCI_1",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_SuccEst_QCI_2",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_SuccEst_QCI_3",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_SuccEst_QCI_4",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_SuccEst_QCI_5",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_SuccEst_QCI_6",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_SuccEst_QCI_7",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_SuccEst_QCI_8",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_SuccEst_QCI_9",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_AttEst_QCI_1",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_AttEst_QCI_2",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_AttEst_QCI_3",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_AttEst_QCI_4",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_AttEst_QCI_5",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_AttEst_QCI_6",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_AttEst_QCI_7",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_AttEst_QCI_8",
+        "isActive": false
+      },
+      {
+        "name": "L_ERAB_AttEst_QCI_9",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MMETot_VoIP",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_eNBTot_QCI_1",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_QCI_1",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_QCI_1",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_QCI_2",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_QCI_3",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_QCI_4",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_QCI_6",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_QCI_7",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_QCI_9",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MME_VoIP",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MME_QCI_2",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MME_QCI_3",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MME_QCI_4",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MME_QCI_6",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MME_QCI_7",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MME_QCI_8",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MME_QCI_9",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_QCI_2",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_QCI_3",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_QCI_4",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_QCI_6",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_QCI_7",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_QCI_8",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_QCI_9",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_QCI_8",
+        "isActive": false
+      }
+    ],
+    "kpis": [
+      {
+        "name": "erab_setup_success_rate",
+        "isActive": false
+      },
+      {
+        "name": "erab_modify_success_rate",
+        "isActive": false
+      },
+      {
+        "name": "erab_release_success_rate",
+        "isActive": false
+      },
+      {
+        "name": "ERAB_Setup_Succ_Rate_Init_PS",
+        "isActive": false
+      },
+      {
+        "name": "ERAB_Setup_Succ_Rate_Added",
+        "isActive": false
+      },
+      {
+        "name": "ERAB_Setup_Succ_Rate_Service",
+        "isActive": false
+      },
+      {
+        "name": "ERAB_Setup_Succ_Rate_QCI1",
+        "isActive": false
+      },
+      {
+        "name": "ERAB_Setup_Succ_Rate_QCI5",
+        "isActive": false
+      },
+      {
+        "name": "ERAB_Setup_Succ_Rate_CRA",
+        "isActive": false
+      },
+      {
+        "name": "ERAB_Drop_Rate_Act_All_No_QCI5",
+        "isActive": false
+      }
+    ]
+  },
+  "Medium Access Control measurements": {
+    "counters": [
+      {
+        "name": "number_of_rach",
+        "isActive": false
+      },
+      {
+        "name": "number_of_rar",
+        "isActive": false
+      },
+      {
+        "name": "call_duration",
+        "isActive": false
+      },
+      {
+        "name": "L_RA_GrpA_ContResolution",
+        "isActive": false
+      },
+      {
+        "name": "L_Traffic_ActiveUser_DL_Avg",
+        "isActive": false
+      },
+      {
+        "name": "L_Traffic_ActiveUser_UL_Avg",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index0",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index1",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index2",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index3",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index4",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index5",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index6",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index7",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index8",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PUSCH_Util_Samp_Index9",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index0",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index1",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index2",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index3",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index4",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index5",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index6",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index7",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index8",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PRB_PDSCH_Util_Samp_Index9",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_CCE_CommUsed",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_CCE_DLUsed",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_CCE_ULUsed",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PDCCH_AggLvl1Num",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PDCCH_AggLvl2Num",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PDCCH_AggLvl4Num",
+        "isActive": false
+      },
+      {
+        "name": "L_ChMeas_PDCCH_AggLvl8Num",
+        "isActive": false
+      },
+      {
+        "name": "L_Available_PRB_DL",
+        "isActive": false
+      },
+      {
+        "name": "L_CFI",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_SessionTime_UE",
+        "isActive": false
+      },
+      {
+        "name": "f_PDCCH_CCE_Alloc_Blocking_Rate",
+        "isActive": false
+      },
+      {
+        "name": "f_PDCCH_CCE_Aggregation_Lvl_Avg",
+        "isActive": false
+      },
+      {
+        "name": "f_PDCCH_CCE_Agg_Level_1_Share",
+        "isActive": false
+      },
+      {
+        "name": "f_PDCCH_CCE_Agg_Level_2_Share",
+        "isActive": false
+      },
+      {
+        "name": "f_PDCCH_CCE_Agg_Level_4_Share",
+        "isActive": false
+      },
+      {
+        "name": "f_PDCCH_CCE_Agg_Level_8_Share",
+        "isActive": false
+      }
+    ],
+    "kpis": [
+      {
+        "name": "Random_access_procedure_SR",
+        "isActive": false
+      },
+      {
+        "name": "RACH_Succ_Rate_CB_Msg_3_To_1",
+        "isActive": false
+      },
+      {
+        "name": "PRB_Util_Rate_PUSCH_Avg",
+        "isActive": false
+      },
+      {
+        "name": "PRB_Util_Rate_PDSCH_Avg",
+        "isActive": false
+      },
+      {
+        "name": "Users_Active_DL_Sum_of_Avg",
+        "isActive": false
+      },
+      {
+        "name": "Users_Active_DL_Avg_of_Avg",
+        "isActive": false
+      },
+      {
+        "name": "Users_Active_UL_Sum_of_Avg",
+        "isActive": false
+      },
+      {
+        "name": "Users_Active_UL_Avg_of_Avg",
+        "isActive": false
+      },
+      {
+        "name": "Erlang_VoLTE",
+        "isActive": false
+      },
+      {
+        "name": "PDCCH_Symbol_Num_Avg",
+        "isActive": false
+      }
+    ]
+  },
+  "S1 measurements": {
+    "counters": [
+      {
+        "name": "ue_count_min",
+        "isActive": false
+      },
+      {
+        "name": "ue_count_max",
+        "isActive": false
+      },
+      {
+        "name": "ue_count_avg",
+        "isActive": false
+      },
+      {
+        "name": "ue_count_online",
+        "isActive": false
+      },
+      {
+        "name": "handover_success",
+        "isActive": false
+      },
+      {
+        "name": "handover_success_volte",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_setup_complete",
+        "isActive": false
+      },
+      {
+        "name": "initial_ue_message",
+        "isActive": false
+      },
+      {
+        "name": "initial_context_setup_response",
+        "isActive": false
+      },
+      {
+        "name": "initial_context_setup_failure",
+        "isActive": false
+      },
+      {
+        "name": "initial_context_setup_request",
+        "isActive": false
+      },
+      {
+        "name": "ul_nas_transport",
+        "isActive": false
+      },
+      {
+        "name": "dl_nas_transport",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_release_request",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_modify_failure",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_modify_response",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_modify_request",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_release_command",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_release_complete",
+        "isActive": false
+      },
+      {
+        "name": "handover_request_acknowledge",
+        "isActive": false
+      },
+      {
+        "name": "mme_status_transfer",
+        "isActive": false
+      },
+      {
+        "name": "handover_failure",
+        "isActive": false
+      },
+      {
+        "name": "handover_request",
+        "isActive": false
+      },
+      {
+        "name": "handover_send_notify",
+        "isActive": false
+      },
+      {
+        "name": "s1_setup_request",
+        "isActive": false
+      },
+      {
+        "name": "s1_setup_response",
+        "isActive": false
+      },
+      {
+        "name": "s1_setup_failure",
+        "isActive": false
+      },
+      {
+        "name": "handover_so_success",
+        "isActive": false
+      },
+      {
+        "name": "handover_so_attempt",
+        "isActive": false
+      },
+      {
+        "name": "L_dl_nas_transport",
+        "isActive": false
+      },
+      {
+        "name": "L_initial_contetxt_setup_request",
+        "isActive": false
+      },
+      {
+        "name": "L_ue_context_release_command",
+        "isActive": false
+      },
+      {
+        "name": "abnormal_release_request",
+        "isActive": false
+      },
+      {
+        "name": "handover_send_notify_freq",
+        "isActive": false
+      },
+      {
+        "name": "handover_request_freq",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_AbnormRel_MME",
+        "isActive": false
+      },
+      {
+        "name": "f_Paging_Deletion_Rate",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_IRatHOOut_QCI_1",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_IRatHOOut_QCI_2",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_IRatHOOut_QCI_3",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_IRatHOOut_QCI_4",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_IRatHOOut_QCI_6",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_IRatHOOut_QCI_7",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_IRatHOOut_QCI_8",
+        "isActive": false
+      },
+      {
+        "name": "L_E_RAB_NormRel_IRatHOOut_QCI_9",
+        "isActive": false
+      }
+    ],
+    "kpis": [
+      {
+        "name": "initial_context_setup_failure_rate",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_release_success_rate",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_release_failure_rate",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_modify_success_rate",
+        "isActive": false
+      },
+      {
+        "name": "ue_context_modify_failure_rate",
+        "isActive": false
+      },
+      {
+        "name": "s1_setup_success_rate",
+        "isActive": false
+      },
+      {
+        "name": "s1_setup_failure_rate",
+        "isActive": false
+      },
+      {
+        "name": "handover_success_rate (S1)",
+        "isActive": false
+      },
+      {
+        "name": "S1_SIG_Setup_Succ_Rate",
+        "isActive": false
+      },
+      {
+        "name": "HOSR_Intra_Freq_Out",
+        "isActive": false
+      },
+      {
+        "name": "HOSR_Inter_Freq_Out",
+        "isActive": false
+      }
+    ]
+  },
+  "timeMode": [
+    {
+      "name": "Continuous",
+      "isActive": false,
+      "options": null
+    },
+    {
+      "name": "Section Time",
+      "isActive": true,
+      "options": {
+        "startTime": "12:34",
+        "endTime": "13:30"
+      }
+    }
+  ],
+  "dateRange": [
+    {
+      "name": "Custom",
+      "isActivce": true,
+      "startDate": "2025-10-01",
+      "endDate": "2025-10-13"
+    }
+  ]
 }
