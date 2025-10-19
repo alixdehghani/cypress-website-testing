@@ -7,9 +7,9 @@ describe('Dashboard Features', () => {
     it('click query result', () => {
         cy.fixture('oss-config').then((ossConfig) => {
             cy.get('button#Performance').contains('Performance').realClick();
-            cy.contains('button', 'Query Result', { timeout: 1000 }).click();
+            cy.contains('button', 'Query Result', { timeout: 1000 }).realClick();
             cy.get('div.chrome-tab-title', { timeout: 10000 }).contains('Query Result').should('be.visible');
-            cy.get('span.button-text', { timeout: 10000 }).contains('New Query').click();
+            cy.get('span.button-text', { timeout: 10000 }).contains('New Query').realClick();
             cy.get(`mat-tree-node`, { timeout: 10000 }).contains("Cell Measurement").click();
             cy.get('i.icon-angle-double-right').filter(':visible').first().should('be.visible').click();
             cy.get('span.button-text', { timeout: 10000 }).contains('Next').click();
@@ -64,15 +64,19 @@ describe('Dashboard Features', () => {
 
 
             allSelected.forEach(c => {
-                cy.get('mat-list-option[aria-selected="true"]').each(($el) => {
-                    cy.wrap($el).click();
-                });
-                cy.get('mat-list-option').get('h6').contains(c).click();
+                const selectedItems = cy.get('mat-list-option[aria-selected="true"]');
+                if (selectedItems) {
+                    cy.get('mat-list-option[aria-selected="true"]').each(($el) => {
+                        cy.wrap($el).click();
+                    })
+                }
+                cy.get('mat-list-option').get('h6').contains(c, {timeout: 20000}).click();
                 const downloadName = 'chart.png';
                 const timestamp = Date.now();
-                const newName = `S1 measurements-${c}-chart-${timestamp}.png`;
-                cy.get('i.icon-download', {timeout: 10000}).click();
-                cy.get('button').contains('Download PNG').click();
+                const newName = `Downlink measurements-${c}-chart-${timestamp}.png`;
+                cy.get('div.loading-overlay', { timeout: 20000 }).should('not.exist');
+                cy.get('i.icon-download', {timeout: 20000}).click();
+                cy.get('button').contains('Download PNG', {timeout: 20000}).click();
                 cy.readFile(`cypress/downloads/${downloadName}`, { timeout: 15000 }).should('exist');
                 cy.task('renameDownloadedFile', { oldName: downloadName, newName });
             })
