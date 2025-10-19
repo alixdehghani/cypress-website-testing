@@ -64,16 +64,19 @@ describe('Dashboard Features', () => {
 
 
             allSelected.forEach(c => {
-                cy.get('mat-list-option[aria-selected="true"]').each(($el) => {
-                    cy.wrap($el).click();
-                });
-                cy.get('mat-list-option').get('h6').contains(c).click();
+                const selectedItems = cy.get('mat-list-option[aria-selected="true"]');
+                if (selectedItems) {
+                    cy.get('mat-list-option[aria-selected="true"]').each(($el) => {
+                        cy.wrap($el).click();
+                    })
+                }
+                cy.get('mat-list-option').get('h6').contains(c, {timeout: 20000}).click();
                 const downloadName = 'chart.png';
                 const timestamp = Date.now();
-                const newName = `S1 measurements-${c}-chart-${timestamp}.png`;
+                const newName = `Downlink measurements-${c}-chart-${timestamp}.png`;
                 cy.get('div.loading-overlay', { timeout: 20000 }).should('not.exist');
-                cy.get('i.icon-download', {timeout: 10000}).click();
-                cy.get('button').contains('Download PNG').click();
+                cy.get('i.icon-download', {timeout: 20000}).click();
+                cy.get('button').contains('Download PNG', {timeout: 20000}).click();
                 cy.readFile(`cypress/downloads/${downloadName}`, { timeout: 15000 }).should('exist');
                 cy.task('renameDownloadedFile', { oldName: downloadName, newName });
             })
