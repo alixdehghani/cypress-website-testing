@@ -1,4 +1,4 @@
-@softwareui 
+@vlanui 
 Feature: tst for add vlan
 
 Scenario: add vlan
@@ -21,6 +21,7 @@ Scenario: add vlan
     ]
   }
   """
+  * def downloadsDir = karate.properties['user.dir'] + '/target/downloads'
 
   And driver 'https://192.168.140.168' 
 
@@ -61,29 +62,65 @@ And delay(3000)
   And waitFor(refreshButton).click()
   And delay(1000) 
 
-  * def addButton = "//mat-icon[text()='add']"
-  And waitFor(addButton).click()
+
+  * def exportButton = "//button[@aria-haspopup='menu'][.//mat-icon[contains(@data-mat-icon-name, 'export')]]"
+  And waitFor(exportButton).click()
+  
+  * def exportCsvOption = "//button[contains(., 'Export Data as a CSV file')]"
+  And waitFor(exportCsvOption).click()
+  
+  * def expectedFileName = 'enbConf__sector-3.csv' 
+  * def downloadedFile = downloadsDir + '/' + expectedFileName
+  
 
 
- And retry().waitFor("input[formcontrolname=id]")
 
-  * def interfaceDropdown = "mat-select[formcontrolname='interface']" 
-   And click(interfaceDropdown)
-   And retry().waitFor("//mat-option[contains(., 'eth1')]") 
-   And click("//mat-option[contains(., 'eth1')]")
+
+
+#   * def addButton = "//mat-icon[text()='add']"
+#   And waitFor(addButton).click()
+
+
+#  And retry().waitFor("input[formcontrolname=id]")
+
+#   * def interfaceDropdown = "mat-select[formcontrolname='interface']" 
+#    And click(interfaceDropdown)
+#    And retry().waitFor("//mat-option[contains(., 'eth1')]") 
+#    And click("//mat-option[contains(., 'eth1')]")
  
- And input("input[formcontrolname=id]", "141")
+#  And input("input[formcontrolname=id]", "151")
  
- * def typeDropdown = "//mat-label[text()='Type']/ancestor::mat-form-field//mat-select"
- And click(typeDropdown)
- And retry().waitFor("//mat-option[contains(., 'custom')]") 
- And click("//mat-option[contains(., 'custom')]")
+#  * def typeDropdown = "//mat-label[text()='Type']/ancestor::mat-form-field//mat-select"
+#  And click(typeDropdown)
+#  And retry().waitFor("//mat-option[contains(., 'custom')]") 
+#  And click("//mat-option[contains(., 'custom')]")
 
- And input("[formcontrolname=name]", 'VLAN')
- And delay(5000)
+#  And input("[formcontrolname=name]", 'test3')
+#  And delay(5000)
 
- * def addVlanButton = "//button[contains(., 'Save')]"
-   And click(addVlanButton)
+#  * def addVlanButton = "//button[contains(., 'Save')]"
+#    And click(addVlanButton)
 
     And delay(3000)
 
+    * def deleteButton = "//mat-icon[text()='delete']" 
+    And waitFor(deleteButton).click()
+  
+    * def yesButton = "//button[contains(., 'Yes')]"
+    And waitFor(yesButton).click()
+  
+
+
+  
+    * def editButton = "//mat-icon[text()='edit']"
+    And waitFor(editButton).click()
+  
+    * def idInput = "input[formcontrolname='id']"
+    And retry().waitFor(idInput)
+  
+    And clear(idInput)
+    And input(idInput, '11')
+
+    * def yesButton = "//button[contains(., 'Edit')]"
+
+      

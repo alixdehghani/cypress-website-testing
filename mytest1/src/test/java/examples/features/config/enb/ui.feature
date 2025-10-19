@@ -62,7 +62,7 @@ And waitFor(exportButton).click()
 * def exportCsvOption = "//button[contains(., 'Export config as a CSV file')]"
 And waitFor(exportCsvOption).click()
 
-* def expectedFileName = 'enbConf__sector-3.csv' 
+* def expectedFileName = 'VLAN.csv' 
 * def downloadedFile = downloadsDir + '/' + expectedFileName
 * def hexInput = "input.hex"
 
